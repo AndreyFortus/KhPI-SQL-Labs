@@ -38,7 +38,7 @@ CREATE TABLE `tasks` (
 
 DROP TABLE IF EXISTS `task_executors`;
 CREATE TABLE `task_executors` (
-  `id` int(64) unsigned NOT NULL,
+  `user_id` int(64) unsigned NOT NULL,
   `task_id` int(64) unsigned NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
